@@ -255,7 +255,7 @@ header {
 }
 
 .zoom-video {
-    transform: scale(1.5); /* Ajuste o valor conforme necessário */
+    transform: scale(1.7); /* Ajuste o valor conforme necessário */
     /* Mantém o vídeo centralizado */
     transform-origin: center center;
 }
@@ -335,8 +335,8 @@ header {
 .youtube-container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
-    margin: 40px auto;
+    max-width: 1700px;
+
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
@@ -348,7 +348,8 @@ header {
 .youtube-container iframe {
     position: absolute;
     top: 0; left: 0;
-    width: 100%; height: 100%;
+    width: 100%; 
+    height: 100%;
     border: 0;
     border-radius: 20px;
 }
@@ -605,7 +606,7 @@ section {
     background-color: #b3b3b3;
     /* Certifique-se de que o fundo não está cobrindo o vídeo */
     width: 102%;
-    height: 900px;
+    height: 1080px;
     text-align: center;
     display: flex;
     justify-content: center;
